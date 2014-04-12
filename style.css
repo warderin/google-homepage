@@ -1,0 +1,159 @@
+body {
+	font-family: small arial, sans-serif;
+}
+
+.nav {
+	width: 100%;
+	height: 50px;
+	left: 0px;
+	top: 0px;
+}
+
+.nav-list {
+	width: 370px;
+	height: 50px;
+	margin: 0;
+	padding-top: 10px;
+	float: right;
+	position: relative;
+	display: block;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+li {
+	display:inline;
+	padding-left: 10px;
+}
+
+.nav a {
+	font-size: 13px;
+	color: #000;
+	text-decoration: none;
+	line-height: 24px;
+	vertical-align: middle;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+.nav-image {
+	vertical-align: middle;
+}
+
+.button {
+	width: 60px;
+	height: 30px;
+	background-color: #EEE;
+	padding: 8px 12px;
+	border-radius: 2px;
+}
+
+.button:hover {
+	background-color: #DDD;
+	text-decoration: none;
+}
+
+.account-image {
+	height: 32px;
+	width: 32px;
+	border-radius: 16px;
+	margin-top: -3px;
+	vertical-align: middle;
+}
+
+.header {
+	padding-top: 150px;
+	width: 270px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.logo {
+	height: 95px;
+	width: 269px;
+	
+}
+
+.logo-country {
+	position: relative;
+	color: #777;
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+	left: 5px;
+	top: -25px;
+}
+
+.favourite {
+	
+}
+
+.search {
+
+	width: 618px;
+	margin: 0 auto;
+}
+
+.searchbar {
+	width: 618px;
+	height: 34px;
+	background: url(data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=) no-repeat scroll;
+	background-size: 14px 19px;
+	background-position: calc(100% - 10px) center;
+}
+
+.favourites {
+	padding-left: 5px;
+	width: 620px;
+	margin: 0 auto;
+}
+
+.favourite-section {
+	height: 83px;
+	width: 138px;
+	position: relative;
+	float: left;
+	padding: 8px;
+	margin-top: 20px;
+
+}
+
+figure .favourite {
+	height: 83px;
+	width: 138px;
+	border-radius: 3px;
+	box-shadow: -1px -1px 0px #EEE;
+	border: 1px solid #EEE;
+}
+
+figure .favicon {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	left: 61px;
+	top: 71px;
+
+}
+
+figure {
+
+	position: relative;
+	float: left;
+	
+	width: 138px;
+	text-align: center;
+	display: table;
+  max-width: 30%; 
+  margin: 10px auto; 
+}
+
+figcaption {
+	font-size: 10px;
+	color: #777;
+}
